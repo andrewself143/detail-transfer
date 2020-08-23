@@ -25,12 +25,13 @@ This is a project I worked on for a paper with the Interactive Graphics and Visu
 
 Furthermore, here is some sample code for rendering images of several meshes.<br>
 
-	cd 2dRenderFolder
+	#iterate through selected models
+	cd imageRenderer
 	for chair_names in "${selected_models[@]}";
 	do
 			echo 'inside'
 			echo ${chair_names}
-			#generate images   
-			python render_mesh.py --path="../models/doors" --mesh=${chair_names} --ni=4 --dist=2 --outf=../images --oc .10 .80 .61
+			#generate images
+			python render_image.py --path="../models/doors" --mesh=${chair_names} --ni=4 --dist=2 --outf=../images --oc .10 .80 .61
 
 	done

@@ -15,12 +15,12 @@ while read p; do
 done <lists/doors.txt #text file
 
 #iterate through selected models
-cd 2dRenderFolder
+cd imageRenderer
 for chair_names in "${selected_models[@]}";
 do
 		echo 'inside'
 		echo ${chair_names}
 		#generate images
-		python render_mesh.py --path="../models/doors" --mesh=${chair_names} --ni=4 --dist=2 --outf=../images --oc .10 .80 .61
+		python render_image.py --path="../models/doors" --mesh=${chair_names} --ni=4 --dist=2 --outf=../images --oc .10 .80 .61
 
 done
