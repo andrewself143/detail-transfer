@@ -2,10 +2,12 @@
 
 Some sample code of a website for a research project I am working on. Many sensitive parts have been changed or removed.
 <br>
-This is a project I worked on for a paper with the Interactive Graphics and Visualization Lab at UC Irvine (https://graphics.ics.uci.edu/). It has not yet been submitted, but here is a preview I made. The purpose of this project is to create a data set of 3D meshes (.ply files) of different categories of furniture using various online repositories. Then to create a machine learning algorithm that can extract artistic embellishments from one model and apply them to another. Here are some gifs from the UI of the website for this project:<br>
+This is a project I worked on for a paper with the Interactive Graphics and Visualization Lab at UC Irvine (https://graphics.ics.uci.edu/). It has not yet been submitted, but here is a preview I made. The purpose of this project is to create a data set of 3D meshes (.ply files) of different categories of furniture using various online repositories. Then to create a machine learning algorithm that can extract artistic embellishments from one model and apply them to another. Here is a gif showing the different model categories:<br>
 
 ![Alt Text](tables.gif)
 
+<br>
+Here is what the individual models look like:
 <br>
 
 ![Alt Text](mirror2.gif)
